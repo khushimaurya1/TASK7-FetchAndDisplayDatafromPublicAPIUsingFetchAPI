@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Simple Blog</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Blog</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <h1>Welcome to My Blog</h1>
+            <p>A simple blog about web development and learning</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Blog Posts -->
+            <div class="col-md-8">
+                <h2>Latest Posts</h2>
+                
+                <!-- Blog Post 1 -->
+                <div class="blog-post">
+                    <h3>Learning Bootstrap 5</h3>
+                    <p class="blog-date">Posted on March 15, 2024 by Student</p>
+                    <p>Today I learned about Bootstrap 5 and how to create responsive layouts. Bootstrap makes it really easy to build websites quickly. I'm excited to learn more about the grid system and components.</p>
+                    <p>In this post, I'll share what I've learned about Bootstrap classes like container, row, and col. I also discovered how to use buttons, cards, and navigation bars.</p>
+                    <a href="#" class="btn-read-more">Read More</a>
+                </div>
+
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <h3>My First HTML Page</h3>
+                    <p class="blog-date">Posted on March 10, 2024 by Student</p>
+                    <p>I created my first HTML page today! It was really exciting to see my code come to life in the browser. I learned about HTML tags like h1, p, div, and img.</p>
+                    <p>HTML is the foundation of web development. I'm looking forward to learning CSS next to make my pages look better.</p>
+                    <a href="#" class="btn-read-more">Read More</a>
+                </div>
+
+                <!-- Blog Post 3 -->
+                <div class="blog-post">
+                    <h3>Why I Started Learning Web Development</h3>
+                    <p class="blog-date">Posted on March 5, 2024 by Student</p>
+                    <p>I decided to start learning web development because I want to create websites and web applications. The internet is such an important part of our lives, and I want to be able to build things that people can use.</p>
+                    <p>My goal is to become a front-end developer. I'm starting with HTML, CSS, and JavaScript, then I'll learn frameworks like React.</p>
+                    <a href="#" class="btn-read-more">Read More</a>
+                </div>
+
+                <!-- Simple Pagination -->
+                <nav>
+                    <ul class="pagination">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#">Previous</a>
+                        </li>
+                        <li class="page-item active">
+                            <a class="page-link" href="#">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="#">Next</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="col-md-4">
+                <!-- Search -->
+                <div class="sidebar">
+                    <h4>Search</h4>
+                    <div class="search-box">
+                        <input type="text" class="form-control" placeholder="Search...">
+                        <button class="btn btn-success mt-2">Search</button>
+                    </div>
+                </div>
+
+                <!-- Categories -->
+                <div class="sidebar mt-4">
+                    <h4>Categories</h4>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">HTML</a></li>
+                        <li><a href="#">CSS</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Bootstrap</a></li>
+                        <li><a href="#">Learning</a></li>
+                    </ul>
+                </div>
+
+                <!-- Recent Posts -->
+                <div class="sidebar mt-4">
+                    <h4>Recent Posts</h4>
+                    <ul>
+                        <li><a href="#">Learning Bootstrap 5</a></li>
+                        <li><a href="#">My First HTML Page</a></li>
+                        <li><a href="#">Why I Started Learning Web Development</a></li>
+                        <li><a href="#">Setting Up My Development Environment</a></li>
+                    </ul>
+                </div>
+
+                <!-- About Me -->
+                <div class="sidebar mt-4">
+                    <h4>About Me</h4>
+                    <p>Hi! I'm a student learning web development. I created this blog to document my journey and share what I learn along the way.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 My Simple Blog. Made by a student learning web development.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
